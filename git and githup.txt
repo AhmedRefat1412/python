@@ -1,0 +1,23 @@
+الكلمات الشائعه
+repository :- مستودع
+branch :- فرع
+local repo :- لوكل
+remote repo :- سيرفر الشركه او ال githup 
+commit :- (snapshot or checkpoint in your local repo )
+clone :- استنساخ من (local or remote)
+push :- (upload local changes to remote)
+pull :- (you pull changes from remote to local)
+pull request :- (tell others about your changes to pull it from local to remote)
+---------------------------------------------------------------------------------------------
+how to upload file or changes 
+-----------------------------
+1- git status :- هتعرف ايه الحاجات الجديده
+2-git add :- * the star mean you will upload all changes to staging ,
+or you can write the name of file that you need to upload
+
+3- git reset head (file name):- بتنرل الفايل ده من علي الاستيدج 
+4- git commit -m "what you say about upload " :-now in this step your file in local 
+5- git branch :- you will git the branch name if you do not have
+6-git remote :- also you git the remote name if you do not have 
+7-git push origin (here  write branch name)
+----------------------------------------------------------------------------------------------
