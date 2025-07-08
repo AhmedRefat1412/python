@@ -1,8 +1,8 @@
-# print(2-7) 
+print(2-7) 
 # print(10-5)
-# a =100+5j
+a =100+5j
 
-# print("The type of variable having value", a, " is ", type(a))
+print("The type of variable having value", a, " is ", type(a))
 
 # name='ahmed refat'
 # print('n'in name)
@@ -68,14 +68,14 @@ for degree in degrees:
 
 
  #function
-"""""
+
 def nm (name):
     return f"your name is {name}"
 
 
-print(nm("ahmed"))
+# print(nm("ahmed"))
 
-"""""
+
 
 
 # a = [1, 2, 3]
@@ -86,8 +86,7 @@ print(nm("ahmed"))
 # # print(b[3])
 # # print(c[2])
 # # print(c[2][2])
-
-# print([1, 2, 3] + ['A', 'B', 'C'])
+print([1, 2, 3] + ['A', 'B', 'C'])
 # print('zzzzzzzzzzzzzzzzzzzzzzzzzzz')
 
 # c[0]='donkey'
