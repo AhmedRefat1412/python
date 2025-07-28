@@ -151,41 +151,45 @@ me1.static_methos()
 #me1.class_method ()
 """""
 
-# inheritance
+# # inheritance
 
-class car:
-    def __init__(self,color,model,year):
-       self. Color =color
-       self. Model= model 
-       self. Year=year
+# class car:
+#     def __init__(self,color,model,year):
+#        self. Color =color
+#        self. Model= model 
+#        self. Year=year
 
-    def car_color (self):
-        print(f"this color have a {self.Color} color ")
+#     def car_color (self):
+#         print(f"this color have a {self.Color} color ")
 
-    def car_model (self):
-        print(f"this color have a {self.Model} model ")
+#     def car_model (self):
+#         print(f"this color have a {self.Model} model ")
   
-    def car_Year (self):
-        print(f"this color have a {self.Year} year ")
+#     def car_Year (self):
+#         print(f"this color have a {self.Year} year ")
   
 
 
-class kia(car):
-    def __init__(self, color, model, year,high):
-        super().__init__(color, model, year)
-        self.high=high
+# class kia(car):
+#     def __init__(self, color, model, year,high):
+#         super().__init__(color, model, year)
+#         self.high=high
 
-    def speed(self):
-        print(f"this car has hig speed")
+#     def speed(self):
+#         print(f"this car has hig speed")
 
-    def car_high (self):
-        print(f"car high is {self.high}")
-
-
-car1=kia("kia","sportage","2025",50)
-car2=car("kia","sportage","2025")
-# car1.car_color()
-# print(car1.Model)
-car1.car_high()
+#     def car_high (self):
+#         print(f"car high is {self.high}")
 
 
+# car1=kia("kia","sportage","2025",50)
+# car2=car("kia","sportage","2025")
+# # car1.car_color()
+# # print(car1.Model)
+# car1.car_high()
+
+
+
+my_range =range(1,10)
+
+print(my_range)
