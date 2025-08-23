@@ -21,3 +21,14 @@ or you can write the name of file that you need to upload
 6-git remote :- also you git the remote name if you do not have 
 7-git push origin (here  write branch name)
 ----------------------------------------------------------------------------------------------
+حاب اضيف حاجه في repository جديد
+-------------------------------------------------
+1- git clone https://github.com/AhmedRefat1412/اسم ال repository
+
+2- cd (الاسم بتاع المستودع )
+
+3-  git add *
+
+4- git commit -m" write what you want "
+
+5- git push origin main
